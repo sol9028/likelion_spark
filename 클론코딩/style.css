@@ -1,0 +1,203 @@
+body {
+  margin: 0;
+  padding-top: 66px;
+  font-family: Arial, sans-serif;
+}
+
+.navbar {
+  width: 100%;
+  height: 66px;
+  background-color: white;
+  display: flex;
+  justify-content: space-between;
+  border-bottom: 1px solid rgb(235, 235, 235);
+  top: 0;
+  position: fixed;
+}
+
+li {list-style: none;}
+a {
+    text-decoration: none;
+    color: inherit;
+}
+
+.navbar_sort {
+  display: flex;
+  justify-content: flex-start;
+  flex-direction: row;
+  align-items: center;
+  padding: 0px;
+}
+
+.navbar_sort li {
+  padding: 20px 16px;
+  font-weight: 600;
+}
+
+.login_button {
+  width: 90px;
+  height: 64px;
+  border-style: none;
+  background-color: white;
+}
+
+.login_button span {
+  width: 41.51px;
+  height: 24px;
+  color: #737373;
+  font-size: 16px;
+  font-weight: 600;
+}
+
+h3 {
+  color: #262626;
+  font-size: 27px;
+  font-weight: 650;
+  margin-top: 4px;
+  margin-right: 16px;
+  margin-bottom: 40px;
+  margin-left: 0px;
+}
+
+.bootcamp {
+  margin-top: 80px;
+  margin-left: 245px;
+  margin-right: 245px;
+  width: 100%;
+  height: 900px;
+}
+
+.sub_title {
+  font-size: 17px;
+  font-weight: 600;
+  color: rgb(255, 119, 16);
+  margin-top: 10px;
+}
+
+.main_title {
+  display: flex;
+  margin-top: 10px;
+}
+
+.main_title span {
+  margin-top: 10px;
+  margin-left: 830px;
+  font-weight: 600;
+  font-size: 15px;
+}
+
+
+.bootcamp .container {
+  display: grid;
+  grid-template-columns: 290px 290px 290px 290px;
+  grid-template-rows: 420px 420px;
+  column-gap: 20px;
+  row-gap: 20px;
+}
+
+.bootcamp_img {
+  width: 290px;
+  height: 220px;
+  box-sizing: border-box;
+  overflow: hidden;
+  border-radius: 5%;
+  margin-bottom: 20px;
+}
+
+.bootcamp_img img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+
+.bootcamp_intro {
+  border: 1px solid #059669;
+  width: 90.63px;
+  text-align: center;
+  color: #059669;
+  font-size: 14px;
+  font-weight: 600;
+  padding: 5px 1px;
+  border-radius: 4px;
+}
+
+.bootcamp_name {
+  font-size: 20px;
+  font-weight: 600;
+  color: #222222;
+  margin: 16px 0px 8px;
+}
+
+.bootcamp_detail {
+  display: block;
+  font-size: 18px;
+  line-height: 27px;
+  color: #222222;
+}
+
+.bootcamp_date {
+  display: block;
+  margin-top: 16px;
+  font-size: 16px;
+  color: #a3a3a3;
+}
+
+
+
+.schedule {
+  margin-top: 80px;
+  margin-left: 245px;
+  margin-right: 245px;
+  width: 100%;
+}
+
+.schedule_select {
+  display: flex;
+  width: 1232px;
+  border-bottom: 1px solid rgb(209, 209, 209);
+}
+
+.class_select {
+  color: #ff7710;
+  border-bottom: 2px solid #ff7710;
+  font-size: 20px;
+  font-weight: 600;
+  margin-right: 24px;
+  text-align: center;
+  line-height: 38px;
+}
+
+.month_select {
+  color: #737373;
+  font-size: 20px;
+  line-height: 38px;
+}
+
+.class_interest{
+  color: #222222;
+  font-size: 20px;
+  font-weight: 600;
+  margin-top: 40px;
+}
+
+.class_sort {
+  width: 1182px;
+  height: 106px;
+  margin-top: 24px;
+  margin-bottom: 100px;
+  padding: 24px;
+  border: 1px solid rgb(209, 209, 209);
+  border-radius: 20px;
+}
+
+.class_sort > div {
+  display: inline-block;
+  border: 1px solid rgb(209, 209, 209);
+  border-radius: 10px;
+  padding: 8px 12px;
+  font-size: 18px;
+  color: #222222;
+  margin-right: 15px;
+  margin-bottom: 20px;
+  text-align: center;
+}
